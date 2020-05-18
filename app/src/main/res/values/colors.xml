@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8594ef</color>
+    <color name="colorPrimaryDark">#5769e3</color>
+    <color name="colorAccent">#8594ef</color>
+
+    <color name="defaultFontColor">#CC000000</color>
+    <color name="orange">#ff7b17</color>
+    <color name="lightorange">#ecffc76d</color>
+    <color name="green">#1eb024</color>
+    <color name="lightgreen">#dc7ff783</color>
+    <color name="red">#F51939</color>
+    <color name="lightred">#e2ff9494</color>
+    <color name="intro">#f51939</color>
+    <color name="white">#ffffff</color>
+    <color name="lightgrey">#c2e9e9e9</color>
+    <color name="tabUnSelectedColor">#5c5c5c</color>
+    <color name="tabSelectedColor">#5769e3</color>
+</resources>

@@ -1,0 +1,9 @@
+# Function dependencies, for example:
+# package>=version
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+firebase-admin
+google-cloud-storage

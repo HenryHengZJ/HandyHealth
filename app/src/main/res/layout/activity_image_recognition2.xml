@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/containerCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"
+            android:soundEffectsEnabled="false"
+            app:cameraAudio="off"
+            app:cameraFacing="back"
+            app:cameraJpegQuality="60"
+            app:cameraPlaySounds="false"
+            app:cameraWhiteBalance="auto" />
+
+        <ImageView
+            android:id="@+id/cameraFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/frame" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/finalImageFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/finalImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loginphoto1_blurred"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+
+
+    <include
+        android:id="@+id/bottomLayout"
+        layout="@layout/camera_sheet" />
+
+</android.support.design.widget.CoordinatorLayout>

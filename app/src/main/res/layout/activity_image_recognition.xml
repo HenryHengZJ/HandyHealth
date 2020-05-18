@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/containerCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/cameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"
+            android:soundEffectsEnabled="false"
+            app:cameraAudio="off"
+            app:cameraFacing="back"
+            app:cameraJpegQuality="60"
+            app:cameraPlaySounds="false"
+            app:cameraWhiteBalance="auto" />
+
+        <ImageView
+            android:id="@+id/cameraFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/frame" />
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/bottomLayout"
+        layout="@layout/pokemon_sheet" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@null" />
+
+</android.support.design.widget.CoordinatorLayout>

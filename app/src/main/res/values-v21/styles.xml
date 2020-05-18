@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SymptomDetailTheme.SymptomDetail" parent="SymptomDetailTheme">
+        <item name="android:statusBarColor"></item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

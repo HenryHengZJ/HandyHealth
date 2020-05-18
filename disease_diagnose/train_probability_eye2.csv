@@ -1,0 +1,11 @@
+Disease,Both eye,Spread eye,Eye injury,Clear eye,Red eye,Pain in the eye,Pain around the eye,Pain behind the eye,Burning eye,Itchy eye,Watery eye,Dry eye,Blink frequently,Something in the eye,Greenish or yellowish and sticky discharge,Watery and transparent discharge,Sensitive to light,Reddened eyelid,Crusty eyelid,Itchy eyelid,Eyelashes loss,Itchy eyelashes,Blurry vision,Vision loss in central,Straight lines seeming bent,Dark floating spot,Double vision,Squinting eye,Color vision,Night vision,Halos vision,Contact lens,Cold,Infection,Diabetes,Age
+Blepharitis,1*0.5,0,0,1*0.5,1*0.5,1*0.6,0,0,1*0.7,0,1*0.5,1*0.5,0,1*0.8,0,0,1*0.7,1*0.8,1*0.8,1*0.8,1*0.8,1*0.8,1*0.8,0,0,0,0,0,0,0,0,0,0,0,0,age>40*0.7
+Cataract,1*0.5,1*0.3,0,1*0.9,1*0.1,0,0,0,0,0,0,0,0,0,0,0,1*0.7,0,0,0,0,0,1*0.8,0,0,0,0,0,1*0.8,1*0.7,1*0.8,1*0.5,0,0,0,age>60*0.8
+Mascular Degeneration,1*0.5,0,0,1*1.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1*0.9,1*0.9,1*0.8,0,0,0,1*0.6,1*0.7,0,0,0,0,0,age>60*0.9
+Allergic Conjunctivitis,1*0.8,1*0.3,1*0.1,0,1*1.0,1*0.5,0,0,1*0.6,1*0.7,1*0.7,0,0,0,0,0,0,1*0.6,1*0.2,1*0.2,0,0,1*0.6,0,0,0,0,0,1*0.2,0,0,1*0.2,1*0.2,1*0.2,0,age>50*0.5
+Bacteria Conjunctivitis,1*0.5,1*0.1,0,0,1*1.0,1*0.5,0,0,1*0.3,1*0.6,0,0,0,0,1*0.8,0,1*0.5,1*0.1,1*0.6,1*0.6,0,0,1*0.3,0,0,0,0,0,0,0,0,1*0.8,1*0.1,1*0.7,0,age>50*0.5
+Viral Conjunctivitis,1*0.5,1*0.8,0,0,1*1.0,1*0.5,0,0,1*0.3,1*0.6,1*0.8,0,0,0,0,1*0.8,1*0.6,0,0,0,0,0,1*0.3,0,0,0,0,0,0,0,0,1*0.5,1*0.7,1*0.2,0,age>50*0.5
+Dry Eye Syndrome,1*0.5,0,0,1*0.2,1*0.8,1*0.7,0,0,1*0.6,1*0.6,1*0.6,1*1.0,1*0.6,1*0.7,0,0,1*0.8,0,0,0,0,0,1*0.6,0,0,0,0,0,0,1*0.7,0,1*0.7,0,0,0,age>50*0.5
+Uevitis,1*0.5,1*0.1,0,0,1*1.0,1*0.7,0,0,0,0,0,0,0,0,0,0,1*0.7,0,0,0,0,0,1*0.8,0,0,1*1.0,0,1*0.7,1*0.2,0,0,0,0,0,0,age>50*0.5
+Diabetic Retinopathy,1*0.8,0,0,1*1.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1*0.8,0,0,1*0.8,1*0.8,1*0.8,1*0.7,1*0.7,0,0,0,0,1*1.0,age>12*1.0
+Keratitis,1*0.3,1*0.4,1*0.7,1*0.2,1*0.8,1*0.8,0,0,0,0,1*0.6,0,0,1*0.7,1*0.2,1*0.2,1*0.7,0,0,0,0,0,1*0.8,0,0,0,0,0,0,0,0,1*0.8,1*0.2,0,0,age>50*0.5

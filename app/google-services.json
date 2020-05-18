@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "150362995921",
+    "firebase_url": "https://tflow-bbd2b.firebaseio.com",
+    "project_id": "tflow-bbd2b",
+    "storage_bucket": "tflow-bbd2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150362995921:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150362995921-o3hfa61o6cgrt9q31msgblodqvjm1pdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "9d5fc92459bd3257a1708482c17be4fd3caf06c6"
+          }
+        },
+        {
+          "client_id": "150362995921-o29pvi40nk30kpmeqeqk7lsm3q968sfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTg9dq4KwpHKMD104s_maLHkrR_PMXRuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150362995921-o29pvi40nk30kpmeqeqk7lsm3q968sfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
